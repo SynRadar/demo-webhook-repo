@@ -28,7 +28,7 @@ def run():
 
 @app.route("/greet")
 def greet():
-    return "helo"
+    return "Hello"
 
 if __name__ == "__main__":
     app.run()
