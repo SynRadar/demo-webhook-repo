@@ -30,5 +30,9 @@ def run():
 def greet():
     return "Hello Kon"
 
+@app.route("/demo")
+def demo():
+    return f"Demo Function"
+
 if __name__ == "__main__":
     app.run()
