@@ -4,6 +4,9 @@ import os
 
 app = Flask(__name__)
 
+AWS_SECRET_ACCESS_KEY = "AKIA1234567890SECRET"
+
+
 print("hello duniya")
 def greet(name):
     return f"Hello, {name}!"
