@@ -32,7 +32,7 @@ def greet():
 
 @app.route("/zxcvbjuy")
 def demo():
-    return f"cfrewsvjjdsdvj"
+    return f"push"
 
 if __name__ == "__main__":
     app.run()
