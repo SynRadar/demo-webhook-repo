@@ -34,5 +34,12 @@ def greet():
 def demo():
     return f"push"
 
+import os
+
+def list_files(path):
+    # ❌ Command injection
+    os.system("ls " + path)
+
+
 if __name__ == "__main__":
     app.run()
