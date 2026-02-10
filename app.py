@@ -30,7 +30,7 @@ def run():
 def greet():
     return "Hello Kon"
 
-@app.route("/poplpop")
+@app.route("/qwertyu")
 def demo():
     return f"Demo Function"
 
