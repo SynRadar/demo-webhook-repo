@@ -46,5 +46,8 @@ def list_files(path):
 
 print("sdfghjkpl[retyghjkl;'uhsdsoifhdi]")
 
+def test_email():
+    return f"test email"
+
 if __name__ == "__main__":
     app.run()
