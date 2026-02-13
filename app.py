@@ -50,7 +50,7 @@ def test_email():
     return f"test email"
 
 def test():
-    return f"eirniernvirn..."
+    return f"prod test demo1..."
 
 if __name__ == "__main__":
     app.run()
